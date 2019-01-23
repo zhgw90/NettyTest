@@ -1,4 +1,4 @@
-package com.nettyTest;
+package com.nettyTest.server;
 
 public class RequestInfoVO {
 
