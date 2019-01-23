@@ -37,7 +37,7 @@ public class Main {
             HttpTransportSE transportSE=new HttpTransportSE(URL);
             transportSE.call(NAMESPACE+METHOD_NAME,envelope);
             resultSoapObject=(SoapObject)envelope.getResponse(); //获取到返回的结果，并强制转换成SoapObject对象
-            System.out.println(resultSoapObject);
+            System.out.println(resultSoapObject);  //打印内容
             //test = (SoapObject)resultSoapObject.getProperty(0); //该对象中还嵌套了一个SoapObject对象，需要使用getProperty(0)把这个对象提取出来
         }catch (Exception e){
             e.printStackTrace();
