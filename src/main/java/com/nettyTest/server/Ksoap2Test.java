@@ -7,7 +7,7 @@ import org.ksoap2.serialization.SoapPrimitive;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
-public class Main {
+public class Ksoap2Test {
     public static void main(String[] args){
         /*String SOAP_ACTION="http://www.hztianque.com/addIssues";
         String NAMESPACE="http://www.hztianque.com/";
