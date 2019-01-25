@@ -1,15 +1,12 @@
-package com.nettytest.server;
+package com.nettyTest.server;
 
 import org.ksoap2.SoapEnvelope;
+import org.ksoap2.SoapFault;
 import org.ksoap2.serialization.SoapObject;
+import org.ksoap2.serialization.SoapPrimitive;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
-/**
- * @author zhangguowei
- * @version v 0.1.0
- * @date 2019/1/25 16:56
- */
 public class Ksoap2Test {
     public static void main(String[] args){
         /*String SOAP_ACTION="http://www.hztianque.com/addIssues";

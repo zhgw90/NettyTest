@@ -1,13 +1,8 @@
-package com.nettytest.server;
+package com.nettyTest.server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
-/**
- * @author zhangguowei
- * @version v 0.1.0
- * @date 2019/1/25 16:56
- */
 public class NettyServerHandler extends SimpleChannelInboundHandler<RequestInfoVO> {
 //	private static final Log log = LogFactory.getLog(NettyServerHandler.class);
 

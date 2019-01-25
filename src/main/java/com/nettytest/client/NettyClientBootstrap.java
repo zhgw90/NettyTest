@@ -1,4 +1,4 @@
-package com.nettytest.client;
+package com.nettyTest.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -9,11 +9,6 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
-/**
- * @author zhangguowei
- * @version v 0.1.0
- * @date 2019/1/25 16:56
- */
 public class NettyClientBootstrap {
     private int port;
     private String host;

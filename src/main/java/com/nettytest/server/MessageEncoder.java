@@ -1,15 +1,10 @@
-package com.nettytest.client;
+package com.nettyTest.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufOutputStream;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 
-/**
- * @author zhangguowei
- * @version v 0.1.0
- * @date 2019/1/25 16:56
- */
 public class MessageEncoder extends MessageToByteEncoder<RequestInfoVO> {
 
     private static final String DEFAULT_ENCODE = "utf-8";

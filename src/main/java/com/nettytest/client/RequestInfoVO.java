@@ -1,12 +1,9 @@
-package com.nettytest.server;
+package com.nettyTest.client;
 
-/**
- * @author zhangguowei
- * @version v 0.1.0
- * @date 2019/1/25 16:56
- */
 public class RequestInfoVO {
+
     private String body;
+
     private int  Type;
     private int  Sequence;
 
@@ -27,8 +24,5 @@ public class RequestInfoVO {
     }
     public void setSequence(int sequence) {
         Sequence = sequence;
-    }
-    public String toString(){
-        return "sequence:"+ getSequence()+"  type:"+getType()+"  body:"+getBody();
     }
 }

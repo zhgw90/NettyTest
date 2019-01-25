@@ -1,13 +1,8 @@
-package com.nettytest.client;
+package com.nettyTest.client;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
-/**
- * @author zhangguowei
- * @version v 0.1.0
- * @date 2019/1/25 16:56
- */
 public class NettyClientHandler extends SimpleChannelInboundHandler<RequestInfoVO> {
 
     protected void channelRead0(ChannelHandlerContext ctx, RequestInfoVO msg)
