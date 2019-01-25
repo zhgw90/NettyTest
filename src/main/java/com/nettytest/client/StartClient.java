@@ -1,8 +1,13 @@
-package com.nettyTest.client;
+package com.nettytest.client;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author zhangguowei
+ * @version v 0.1.0
+ * @date 2019/1/25 16:56
+ */
 public class StartClient {
     public static void main(String[] args) throws Exception {
         NettyClientBootstrap bootstrap = new NettyClientBootstrap(61111, "127.0.0.1");

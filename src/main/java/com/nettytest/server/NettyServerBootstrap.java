@@ -1,5 +1,4 @@
-package com.nettyTest.server;
-
+package com.nettytest.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
@@ -9,6 +8,11 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+/**
+ * @author zhangguowei
+ * @version v 0.1.0
+ * @date 2019/1/25 16:56
+ */
 public class NettyServerBootstrap {
     private static final Log log = LogFactory.getLog(NettyServerBootstrap.class);
     private Integer port;

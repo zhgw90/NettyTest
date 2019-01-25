@@ -1,4 +1,4 @@
-package com.nettyTest.server;
+package com.nettytest.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
@@ -6,6 +6,11 @@ import io.netty.handler.codec.ByteToMessageDecoder;
 
 import java.util.List;
 
+/**
+ * @author zhangguowei
+ * @version v 0.1.0
+ * @date 2019/1/25 16:56
+ */
 public class MessageDecoder extends ByteToMessageDecoder {
     private static final int MAGIC_NUMBER = 0x0CAFFEE0;
     public MessageDecoder() {
